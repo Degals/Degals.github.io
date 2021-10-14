@@ -1,4 +1,6 @@
-<style> backround-color: black; </style>
+<style>
+  aside { backround-color: black;
+}</style>
 <h1> Welcome to GitHub Pages </h1>
 You can use the [editor on GitHub](https://github.com/Degals/Degals.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
