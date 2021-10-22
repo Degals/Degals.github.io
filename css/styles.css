@@ -43,10 +43,18 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 150px 150px 50px, 50px;
     grid-gap: 3px;
+    justify-content: center;
+    align-items: center;
 }
 .header {
     grid-column:1/2;
 }
 .menu {
     grid-column: 2/3;
+}
+.about_me_content {
+    grid-column: 1.5/-1
+}
+.self_portrait {
+    grid-column: 1/1.5;
 }
