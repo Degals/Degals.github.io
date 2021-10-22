@@ -2,7 +2,8 @@ header {background-color: wheat;
     font-family: 'Noto Sans Mono', monospace;}
 
 body { 
-    background-color: aliceblue;
+    background-color: #f8f4eb;
+    font-family: 'Noto Sans Mono', monospace;
  }
  h1 { 
      color: black
@@ -12,7 +13,7 @@ body {
   }
 .topnav {
     overflow:hidden;
-    background-color: rgb(37, 35, 35);
+    background-color: rgb(20, 20, 20);
 }
 
 .topnav a {
@@ -28,8 +29,8 @@ body {
     color: white;
 }
 .topnav a.active{
-    background-color: #2a0680;
-    color: white;}
+    background-color: wheat;
+    color: black;}
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
