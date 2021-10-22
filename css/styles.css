@@ -47,14 +47,11 @@ body {
     align-items: center;
 }
 .header {
-    grid-column:1/2;
 }
 .menu {
-    grid-column: 2/3;
 }
 .about_me_content {
-    grid-column: 1.5/-1
 }
 .self_portrait {
-    grid-column: 1/1.5;
+
 }
