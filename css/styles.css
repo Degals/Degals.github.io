@@ -1,4 +1,4 @@
-header {background-color: wheat;
+header {background-color: #f8f4eb;
     font-family: 'Noto Sans Mono', monospace;}
 
 body { 
@@ -11,6 +11,9 @@ body {
  p {
      color: black
   }
+  nav {text-align: justify;
+}
+
 .topnav {
     overflow:hidden;
     background-color: rgb(20, 20, 20);
