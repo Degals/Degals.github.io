@@ -1,5 +1,7 @@
 header {background-color: #f8f4eb;
-    font-family: 'Noto Sans Mono', monospace;}
+    padding: 50px;
+    font-family: 'Noto Sans Mono', monospace;
+}
 
 body { 
     background-color: #f8f4eb;
