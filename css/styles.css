@@ -41,7 +41,7 @@ body {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 50px, 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
     grid-gap: 3px;
     justify-content: center;
     align-items: center;
@@ -61,3 +61,9 @@ body {
 .self_portrait {
 
 }
+.skills_heading {}
+.programming_languages {}
+.python_libs {}
+.business_skills {}
+.contact_me {}
+.resume {}
