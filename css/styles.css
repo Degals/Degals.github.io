@@ -21,6 +21,8 @@ body {
 .topnav {
     overflow: scroll;
     background-color: rgb(20, 20, 20);
+    grid-column: 2/3;
+    grid-row: 1;
 }
 
 .topnav a {
@@ -47,6 +49,8 @@ body {
     align-items: center;
 }
 .header {
+    grid-column: 1/2;
+    grid-row: 1;
 }
 .menu {
 }
