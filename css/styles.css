@@ -19,7 +19,7 @@ body {
 }
 
 .topnav {
-    overflow:hidden;
+    overflow: scroll;
     background-color: rgb(20, 20, 20);
 }
 
