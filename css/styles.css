@@ -21,9 +21,7 @@ body {
 .topnav {
     overflow: scroll;
     background-color: rgb(20, 20, 20);
-    grid-column: 2/3;
-    grid-row: 1;
-}
+    }
 
 .topnav a {
     float: left;
@@ -49,10 +47,14 @@ body {
     align-items: center;
 }
 .header {
-    grid-column: 1/2;
+    grid-column-start:1;
+    grid-column-end: 2;
     grid-row: 1;
 }
 .menu {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1;
 }
 .about_me_content {
 }
