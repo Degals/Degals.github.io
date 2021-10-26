@@ -40,8 +40,8 @@ body {
     color: black;}
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(8,1fr);
     grid-gap: 3px;
     justify-content: center;
     align-items: center;
@@ -53,20 +53,54 @@ body {
 }
 .menu {
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row: 1;
 }
-.about_me_content {
+.about_me_content { 
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row: 2;
 }
 .self_portrait {
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row: 2;
 
 }
-.skills_heading {}
-.programming_languages {}
-.python_libs {}
-.business_skills {}
-.contact_me {}
-.resume {}
+.skills_heading {
+    grid-column-start:1 ;
+    grid-column-end: -1;
+    grid-row: 3;
+ }
+.programming_languages {
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row: 4;
+}
+.python_libs {
+    grid-column-start:2 ;
+    grid-column-end:3;
+    grid-row: 4;
+}
+
+.business_skills {
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row: 4;
+}
+
+.contact_me {
+    grid-column-start:1 ;
+    grid-column-end: -1;
+    grid-row: 5;
+}
+.resume {
+    grid-column-start:1 ;
+    grid-column-end: -1;
+    grid-row: 6;
+
+}
+
 .contact_logos {
     width: 64px;
     height: 64px;
