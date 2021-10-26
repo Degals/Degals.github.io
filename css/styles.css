@@ -43,7 +43,7 @@ body {
 
   .container {
     display: grid;
-    height:100%;
+    height:auto;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 80px auto 80px auto auto 80px ;
     grid-template-areas: 
