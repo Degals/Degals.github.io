@@ -45,7 +45,7 @@ body {
     display: grid;
     height:auto;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 80px auto 80px auto auto 80px ;
+    grid-template-rows: repeat(6,1fr) ;
     grid-template-areas: 
     "h h h h h h m m m m m m"
     "p p p p p p a a a a a a"
