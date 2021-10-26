@@ -19,7 +19,7 @@ body {
 }
 
 .topnav {
-    overflow: scroll;
+    overflow: auto;
     background-color: rgb(20, 20, 20);
     }
 
@@ -37,10 +37,14 @@ body {
 }
 .topnav a.active{
     background-color: wheat;
-    color: black;}
+    color: black;
+}
+
+
   .container {
     display: grid;
-    grid-template-columns: repeat(12, auto);
+    height:100%;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-areas: 
     "h h h h h h m m m m m m"
     "p p p p p p a a a a a a"
