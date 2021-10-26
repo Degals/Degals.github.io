@@ -24,8 +24,6 @@ body {
     align-items: flex-end;
     text-align: center;
     justify-content: right;
-    position: sticky;
-    position: -webkit-sticky; /*safari*/
     }
 .topnav li {
     display:inline-block ;
