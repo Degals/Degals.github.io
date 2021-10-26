@@ -54,6 +54,7 @@ body {
     "c c c c c c c c c c c c"
     "d d d d d d d d d d d d";
     grid-gap: 3px;
+    justify-content: center;
 }
 .header {
     grid-area: h;
