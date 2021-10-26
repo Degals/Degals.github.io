@@ -40,7 +40,7 @@ body {
     color: black;}
   .container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
     grid-template-rows: repeat(8,1fr);
     grid-template-areas: 
     "h h h h h h m m m m m m"
@@ -84,7 +84,6 @@ body {
     grid-area: d;
 
 }
-
 .contact_logos {
     width: 64px;
     height: 64px;
