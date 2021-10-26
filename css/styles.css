@@ -67,3 +67,7 @@ body {
 .business_skills {}
 .contact_me {}
 .resume {}
+.contact_logos {
+    width: 64px;
+    height: 64px;
+}
