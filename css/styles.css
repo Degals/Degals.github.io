@@ -39,65 +39,50 @@ body {
     background-color: wheat;
     color: black;}
   .container {
+    height:100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: 
+    "h h h h h h m m m m m m"
+    "p p p p p p a a a a a a"
+    "s s s s s s s s s s s s"
+    "r r r r l l l l o o o o"
+    "c c c c c c c c c c c c"
+    "d d d d d d d d d d d d";
     grid-gap: 3px;
-    justify-content: center;
-    align-items: center;
 }
 .header {
-    grid-column-start:1;
-    grid-column-end: 2;
-    grid-row: 1;
+    grid-area: h;
 }
 .menu {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row: 1;
+    grid-area: m;
 }
-.about_me_content { 
-    grid-column-start:1 ;
-    grid-column-end: 2;
-    grid-row: 2;
+.about_me_content {
+    grid-area: p;
 }
 .self_portrait {
-    grid-column-start:3 ;
-    grid-column-end: 4;
-    grid-row: 2;
-
+    grid-area: a;
 }
 .skills_heading {
-    grid-column-start:1 ;
-    grid-column-end: -1;
-    grid-row: 3;
+    grid-area: s;
  }
 .programming_languages {
-    grid-column-start:1 ;
-    grid-column-end: 2;
-    grid-row: 4;
+    grid-area: r;
 }
 .python_libs {
-    grid-column-start:2 ;
-    grid-column-end:3;
-    grid-row: 4;
+    grid-area: l;
 }
 
 .business_skills {
-    grid-column-start:3 ;
-    grid-column-end: 4;
-    grid-row: 4;
+    grid-area: o;
 }
 
 .contact_me {
-    grid-column-start:1 ;
-    grid-column-end: -1;
-    grid-row: 5;
+    grid-area: c;
 }
 .resume {
-    grid-column-start:1 ;
-    grid-column-end: -1;
-    grid-row: 6;
+    grid-area: d;
 
 }
 
