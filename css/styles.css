@@ -41,7 +41,7 @@ body {
   .container {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
     grid-template-areas: 
     "h h h h h h m m m m m m"
     "p p p p p p a a a a a a"
