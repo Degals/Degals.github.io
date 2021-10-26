@@ -19,7 +19,6 @@ body {
 }
 
 .topnav {
-    display: relative;
     overflow: hidden;
     background-color: rgb(20, 20, 20);
     align-items: flex-end;
