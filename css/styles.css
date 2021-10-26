@@ -39,7 +39,6 @@ body {
     background-color: wheat;
     color: black;}
   .container {
-    height:100%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
