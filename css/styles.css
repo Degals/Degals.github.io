@@ -70,11 +70,13 @@ p {
 }
 .self_portrait {
     grid-area: a;
+    justify-items: center;
 }
 .skills_heading {
     grid-area: s;
     background-color: black;
-    color: blanchedalmond;
+    color: #f2f2f2;
+    text-align: center;
  }
 .programming_languages {
     grid-area: r;
