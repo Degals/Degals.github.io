@@ -118,7 +118,14 @@ p {
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
-      top: 0;
+      top: 0;}
+    .self_portrait {
+        grid-area: a;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     }
 .topnav.responsive a {
         float: none;
@@ -144,4 +151,4 @@ p {
     "d d d d d d d d d d d d";
     grid-gap: 3px;
     justify-content: center;
-}}}
+}}
