@@ -9,21 +9,17 @@ body {
     background-color: #f8f4eb;
     font-family: 'Noto Sans Mono', monospace;
  }
- h1 { 
+h1 { 
      color: black
  }
- p {
+p {
      color: black
   }
-  nav {text-align: right;
-}
 
 .topnav {
     overflow: hidden;
     background-color: rgb(20, 20, 20);
-}
-.topnav li {
-    display:inline-block ;
+    grid-area: m;
 }
 
 .topnav a {
