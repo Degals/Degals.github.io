@@ -83,12 +83,12 @@ p {
 }
 .python_libs {
     grid-area: l;
-    transform: translateX(-200%);
+    transform: translateY(-200%);
 }
 
 .business_skills {
     grid-area: o;
-    transform: translateY(-100%);
+    transform: translateY(-300%);
 }
 
 .contact_me {
