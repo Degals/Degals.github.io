@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Decclan Lawrence Portfolio</title>
 </head>
   <body>
@@ -13,13 +14,14 @@
       <div class="header">
         <h1>Decclan Lawrence, Data Scientist</h1>
       </div>
-        <div class="menu">
+        <div class="menu" id="navigationbar">
           <nav class = "topnav">
-            <ul>
-              <li><a class="active" href="#aboutme">About Me</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#downloadcv">CV</a></li>
-              <li><a href="#contactme" >Contact Me</a></li>
+            <a class="active" href="#aboutme">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#downloadcv">CV</a>
+            <a href="#contactme" >Contact Me</a>
+            <a href="javascript:void(0);" class="icon" onclick="burger()">
+              <i class="fa fa-bars"></i>
             </ul>
           </nav>
         </div>
@@ -127,6 +129,7 @@
           <a href="CV/Decclan Lawrence (1).pdf" download="download here">Download CV</a>
       </div>
     </div>
+    <script src="javascript/response.js"></script>
   </body>
   
 </html>
