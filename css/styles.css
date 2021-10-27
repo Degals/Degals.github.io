@@ -49,7 +49,7 @@ p {
 .container {
     display: grid;
     height:auto;
-    grid-template-columns: repeat(autofit, minmax(25rem,1fr));
+    grid-template-columns: repeat(autofit, minmax(300px,1fr));
     grid-template-rows: 70px 80px auto 70px auto 110 110 ;
     grid-template-areas: 
     "h h h h h h h h h h h h"
@@ -79,16 +79,15 @@ p {
  }
 .programming_languages {
     grid-area: r;
-    transform: translateY(0%);
 }
 .python_libs {
     grid-area: l;
-    transform: translateY(-200%);
+
 }
 
 .business_skills {
     grid-area: o;
-    transform: translateY(-300%);
+
 }
 
 .contact_me {
@@ -120,4 +119,24 @@ p {
         float: none;
         display: block;
         text-align: left;
-}}
+}
+@media screen and (max-width:768px) {
+    .container { 
+     display: grid;
+    height:auto;
+    grid-template-columns: repeat(autofit, minmax(300px,1fr));
+    grid-template-rows: 70px 80px auto auto auto auto auto auto 110 110 ;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "p p p p p p p p p p p p"
+    "a a a a a a a a a a a a"
+    "s s s s s s s s s s s s"
+    "r r r r r r r r r r r r"
+    "l l l l l l l l l l l l"
+    "o o o o o o o o o o o o"
+    "c c c c c c c c c c c c"
+    "d d d d d d d d d d d d";
+    grid-gap: 3px;
+    justify-content: center;
+}}}
