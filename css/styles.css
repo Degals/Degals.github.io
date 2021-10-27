@@ -70,7 +70,10 @@ p {
 }
 .self_portrait {
     grid-area: a;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .skills_heading {
