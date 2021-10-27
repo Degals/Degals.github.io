@@ -48,9 +48,9 @@ p {
 
 .container {
     display: grid;
-    height:100%;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 70px 80px auto 70px auto 110 7110 ;
+    height:auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-rows: 70px 80px auto 70px auto 110 110 ;
     grid-template-areas: 
     "h h h h h h h h h h h h"
     "m m m m m m m m m m m m"
