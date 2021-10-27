@@ -122,7 +122,7 @@ p {
         display: block;
         text-align: left;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:683px) {
     .container { 
      display: grid;
     height:auto;
