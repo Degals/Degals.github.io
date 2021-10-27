@@ -49,7 +49,7 @@ p {
 .container {
     display: grid;
     height:auto;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(autofit, minmax(25rem,1fr));
     grid-template-rows: 70px 80px auto 70px auto 110 110 ;
     grid-template-areas: 
     "h h h h h h h h h h h h"
@@ -79,13 +79,16 @@ p {
  }
 .programming_languages {
     grid-area: r;
+    transform: translateY(0%);
 }
 .python_libs {
     grid-area: l;
+    transform: translateX(-200%);
 }
 
 .business_skills {
     grid-area: o;
+    transform: translateY(-100%);
 }
 
 .contact_me {
