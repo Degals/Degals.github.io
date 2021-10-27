@@ -61,7 +61,6 @@ p {
     "d d d d d d d d d d d d";
     grid-gap: 3px;
     justify-content: center;
-    justify-items:stretch;
 }
 .header {
     grid-area: h;
