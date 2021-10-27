@@ -70,8 +70,7 @@ p {
 }
 .self_portrait {
     grid-area: a;
-    object-position: center;
-    object-fit: fill;
+    justify-items: center;
 }
 .skills_heading {
     grid-area: s;
