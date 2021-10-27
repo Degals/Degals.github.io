@@ -50,7 +50,7 @@ p {
     display: grid;
     height:100%;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 70px 80px auto 70px auto 70px 70px ;
+    grid-template-rows: 70px 80px auto 70px auto 110 7110 ;
     grid-template-areas: 
     "h h h h h h h h h h h h"
     "m m m m m m m m m m m m"
