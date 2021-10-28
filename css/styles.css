@@ -83,21 +83,25 @@ p {
     text-align: center;
  }
 
+
 .programming_languages {
     grid-area: r;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
     
 }
 
 .python_libs {
     grid-area: l;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
 
 }
 
 .business_skills {
     grid-area: o;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
 
 }
 
