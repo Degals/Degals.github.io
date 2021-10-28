@@ -96,7 +96,7 @@ p {
 .list_style img { 
     float: left;
 }
-.list_style h3 { 
+.list_style li { 
     text-align: right;
     display: inline-block;
     margin: 0;
