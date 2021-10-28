@@ -82,15 +82,21 @@ p {
     color: #f2f2f2;
     text-align: center;
  }
-.skill_logos {float: left; 
 
-}
 .programming_languages {
     grid-area: r;
     
 }
 .list_style { 
-    float:left;
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    float: left;
+}
+.list_style h3 { 
+    text-align: right;
+    margin: 0;
+    padding: 0;
 }
 .python_libs {
     grid-area: l;
