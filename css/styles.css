@@ -91,11 +91,14 @@ p {
     list-style-type: none;
     margin-left:0px;
     padding-left:0px;
-    float: left;
     display: inline-block;
+}
+.list_style img { 
+    float: left;
 }
 .list_style h3 { 
     text-align: right;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
