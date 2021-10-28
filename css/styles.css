@@ -110,6 +110,11 @@ p {
     align-items: center;
     text-align: center;
 }
+.contact_me h1 { 
+    background-color: #202020;
+    color: #f2f2f2;
+    text-align: center;
+ }
 .contact_me a {
     display:inline-block;
 
@@ -120,6 +125,11 @@ p {
     text-align: center;
 
 }
+.resume h1 {
+    background-color: #202020;
+    color: #f2f2f2;
+    text-align: center;
+ }
 .contact_logos {
     width: 64px;
     height: 64px;
