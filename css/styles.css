@@ -87,21 +87,7 @@ p {
     grid-area: r;
     
 }
-.list_style { 
-    list-style-type: none;
-    margin-left:0px;
-    padding-left:0px;
-    display: inline-block;
-}
-.list_style img { 
-    float: left;
-}
-.list_style li { 
-    text-align: right;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
+
 .python_libs {
     grid-area: l;
 
