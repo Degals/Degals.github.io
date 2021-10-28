@@ -82,8 +82,15 @@ p {
     color: #f2f2f2;
     text-align: center;
  }
+.skill_logos {float: left; 
+
+}
 .programming_languages {
     grid-area: r;
+    
+}
+.list_style { 
+    float:left;
 }
 .python_libs {
     grid-area: l;
@@ -106,6 +113,7 @@ p {
     width: 64px;
     height: 64px;
 }
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
